@@ -1,0 +1,28 @@
+#Container {
+  text-align: center;
+}
+
+#Box2{
+    display: grid;
+     grid-template-columns: repeat(4 , 1fr);
+        padding-left: 10px;
+        gap:30px;
+    /* border: 1px solid; */
+    text-align: center;
+}
+
+.main-item{
+     /* border: 1px solid black; */
+     border-radius: 3%;
+     padding-top: 10px;
+     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+     }
+
+     .main-item img{
+     width: 100%;
+     border-radius: 3%;
+     }
+
+    .main-item p + img{
+        width: 50%;
+     }
